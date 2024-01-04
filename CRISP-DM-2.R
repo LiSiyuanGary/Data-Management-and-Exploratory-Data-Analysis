@@ -1,0 +1,8 @@
+install.packages("ProjectTemplate")
+install.packages("digest")
+install.packages("tibble")
+library(ProjectTemplate)
+library(digest)
+library(tibble)
+setwd("D:/英国科目/第一学期/CSC8631 - Data Management and Exploratory Data Analysis/CRISP-DM/CRISP-DM-2")
+create.project("CRISP-DM-2")
